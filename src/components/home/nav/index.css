@@ -1,0 +1,22 @@
+.kingkongCarousel {
+  padding-bottom: 20px;
+}
+.kingkongCarousel .kingkongCarousel_ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.kingkongCarousel .kingkongCarousel_ul .kingkong_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 78px;
+  font-size: 12px;
+  margin: 5px 10px 4px 10px;
+}
+.kingkongCarousel .kingkongCarousel_ul .kingkong_item img {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 4px;
+}

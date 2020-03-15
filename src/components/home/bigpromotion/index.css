@@ -1,0 +1,68 @@
+.BigPromotion {
+  background-color: #cc3256;
+}
+.BigPromotion .BigPromotionTop {
+  height: 3.2rem;
+  width: 100%;
+}
+.BigPromotion .BigPromotionTop a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 3.2rem;
+  background-image: url("https://yanxuan.nosdn.127.net/c17a7a8392d68bb81e28993303185f30.gif?imageView&quality=75");
+  background-size: 100% 100%;
+}
+.BigPromotion .BigPromotionTop a .image {
+  position: absolute;
+  top: 14%;
+  left: 10%;
+  width: 2.24rem;
+  height: 2.24rem;
+}
+.BigPromotion .BigPromotionTop a .image img {
+  width: 100%;
+  height: 100%;
+}
+.BigPromotion .BigPromotionBottom {
+  width: 100%;
+}
+.BigPromotion .BigPromotionBottom .BigPromotionBottom_top {
+  height: 2.48rem;
+  margin: 0.26667rem 0.26667rem 0.10667rem 0.26667rem;
+  display: flex;
+  justify-content: space-between;
+}
+.BigPromotion .BigPromotionBottom .BigPromotionBottom_top a {
+  display: inline-block;
+  height: 100%;
+  width: 4.68rem;
+  background: url("https://yanxuan.nosdn.127.net/48f036a0cbf8c6f649c3a057b2849ed8.png?quality=75&type=webp&imageView&thumbnail=375x0");
+  background-size: 100% 100%;
+}
+.BigPromotion .BigPromotionBottom .BigPromotionBottom_bottom {
+  height: 2.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.26667rem;
+  padding-bottom: 0.26667rem;
+}
+.BigPromotion .BigPromotionBottom .BigPromotionBottom_bottom .BigPromotionBottom_bottom_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: url("https://yanxuan.nosdn.127.net/00ce570b5344d3ab52e98427df5aaf3c.png?quality=75&type=webp&imageView&thumbnail=250x0");
+  background-size: 100% 100%;
+  flex-basis: 32%;
+}
+.BigPromotion .BigPromotionBottom .BigPromotionBottom_bottom .BigPromotionBottom_bottom_item span {
+  font-size: 0.26667rem;
+  line-height: 0.4rem;
+  margin-top: 0.1rem;
+}
+.BigPromotion .BigPromotionBottom .BigPromotionBottom_bottom .BigPromotionBottom_bottom_item img {
+  width: 1.86667rem;
+  height: 1.86667rem;
+}

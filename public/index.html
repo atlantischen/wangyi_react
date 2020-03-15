@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>网易严选 react</title>
+  <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+  <!--引入重置样式文件-->
+  <link rel="stylesheet" href="/css/reset.css">
+  <!-- 引入线上字体图标 -->
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1676865_wvwb594exr.css">
+  <script>
+    if ('addEventListener' in document) {
+      document.addEventListener('DOMContentLoaded', function () {
+        FastClick.attach(document.body);
+      }, false);
+    }
+    if (!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
+    }
+
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>
