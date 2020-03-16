@@ -1,1 +1,2 @@
 export const GET_NAV_LIST = "GET_NAV_LIST";
+export const RECEIVE_CAGEGORYNAV = "RECEIVE_CAGEGORYNAV";

@@ -5,3 +5,10 @@ export const reqGetCategoryList = () => {
     method: "GET"
   });
 };
+
+export const reqCategoryNav = () => {
+  return axios({
+    method: 'GET',
+    url: '/cagetorynav',
+  })
+}

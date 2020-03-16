@@ -1,5 +1,11 @@
-import { GET_NAV_LIST } from "./action-types";
-import { reqGetCategoryList } from "../api";
+import {
+  GET_NAV_LIST,
+  RECEIVE_CAGEGORYNAV
+} from "./action-types";
+import {
+  reqGetCategoryList,
+  reqCategoryNav
+} from "../api";
  const getNavList = data => ({ type: GET_NAV_LIST, data: data });
 export const getNavListAsync=()=>{
   return dispatch=>{
@@ -8,3 +14,15 @@ export const getNavListAsync=()=>{
     })
   }
 }
+
+ const getCategory = data => ({
+   type: RECEIVE_CAGEGORYNAV,
+   data: data
+ });
+ export const getCategoryAsync = () => {
+   return dispatch => {
+     return reqCategoryNav().then(res => {
+       dispatch(getCategory(res.data));
+     })
+   }
+ }
